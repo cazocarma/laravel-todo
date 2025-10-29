@@ -17,7 +17,7 @@ Una aplicación sencilla de lista de tareas (Todo) desarrollada con **Laravel** 
    ```bash
    git clone https://github.com/cazocarma/laravel-todo.git
    cd laravel-todo
-````
+   ```
 
 2. Copia el archivo de entorno y ajusta variables
 
@@ -119,10 +119,4 @@ Este proyecto se distribuye bajo la licencia **MIT**. Puedes libremente usar, mo
 
 ¡Gracias por revisar este proyecto! Si te sirve, considera dejar una estrella ⭐ en el repositorio y si haces mejoras o extensiones, puedes abrir un pull request o compartir tus ideas.
 
-```
-
----
-
-Si lo deseas, puedo ayudarte también a generar un archivo CONTRIBUTING.md o un esquema de issues mínimos para que el repositorio esté más completo. ¿Te lo preparo?
-::contentReference[oaicite:3]{index=3}
 ```
