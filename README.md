@@ -35,16 +35,16 @@ Una aplicación sencilla de lista de tareas (Todo) desarrollada con **Laravel** 
 4. Instala dependencias de Laravel y Vue.js
 
    ```bash
-   docker-exec -it <nombre_del_contenedor_php> composer install
-   docker-exec -it <nombre_del_contenedor_node> npm install
-   docker-exec -it <nombre_del_contenedor_node> npm run dev
+   docker compose exec <nombre_del_contenedor> composer install
+   docker compose exec <nombre_del_contenedor> npm install
+   docker compose exec <nombre_del_contenedor> npm run build
    ```
 
 5. Ejecuta migraciones y generación de clave de aplicación
 
    ```bash
-   docker-exec -it <nombre_del_contenedor_php> php artisan key:generate
-   docker-exec -it <nombre_del_contenedor_php> php artisan migrate
+   docker compose exec <nombre_del_contenedor> php artisan key:generate
+   docker compose exec <nombre_del_contenedor> php artisan migrate
    ```
 
 6. Accede a la aplicación en el navegador
